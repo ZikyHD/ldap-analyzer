@@ -1,5 +1,7 @@
-# Bro::LDAP
+# Zeek::LDAP
 =================================
+
+Compatibility: Zeek 2.6-237+
 
 This package provides an analyzer for Lightweight Directory Access Protocol write operations.  The following operations will be written to ldap.log after running the analyzer:
 
