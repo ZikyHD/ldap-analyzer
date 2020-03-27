@@ -15,8 +15,10 @@ public:
 		             ::analyzer::LDAP::LDAP_Analyzer::InstantiateAnalyzer));
 
 		plugin::Configuration config;
-		config.name = "Bro::LDAP";
+		config.name = "Zeek::LDAP";
 		config.description = "Lightweight Directory Access Protocol analyzer";
+		config.version.major = 1;
+		config.version.minor = 0;
 		return config;
 		}
 } plugin;
