@@ -21,7 +21,7 @@ Additionally, the analyzer will deliver GSSAPI GSS-SPNEGO authentication data in
 * `$ pip3 install zkg`
 * (Recommended: latest version) `$ pip3 install git+git://github.com/zeek/package-manager@master`
 
-2. Configure bro-pkg & environment
+2. Configure zpkg & environment
 
 * zkg needs PATH to zeek-config:  `$ export PATH=$PATH:/path_to/zeek/build` (modify /path/to)
 * Run the autoconfiguration:  `$ zpkg autoconfig`
